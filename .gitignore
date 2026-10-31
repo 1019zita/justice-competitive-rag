@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+.env
+*.env
+openrouter key.txt
+*key*.txt
+*.log
+.DS_Store
+data/corpus_expansion/

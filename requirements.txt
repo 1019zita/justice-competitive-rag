@@ -1,0 +1,6 @@
+numpy>=1.26
+scikit-learn>=1.4
+requests>=2.31
+json5>=0.9
+PyYAML>=6.0
+openpyxl>=3.1

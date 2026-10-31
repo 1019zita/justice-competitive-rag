@@ -1,0 +1,3 @@
+上一次模型输出没有通过确定性 JSON contract 校验。
+请严格修正以下错误，只输出一个 JSON 对象，不要 Markdown、解释或额外文本：
+{{ERRORS}}

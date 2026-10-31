@@ -1,0 +1,50 @@
+[
+  {
+    "text_version_id": "TV-SAMPLE-0001-1",
+    "doc_id": "DOC-SAMPLE-0001",
+    "version_no": 1,
+    "normalizer_version": "sample-norm-0.1",
+    "normalization_ops": [
+      "sample"
+    ],
+    "normalized_text": "第五十四条 学生有作弊行为的，学校可以给予批评教育或者纪律处分。第五十六条 学生对处理决定有异议的，可以依照程序提出申诉。学校作出处分决定，应当告知学生，并允许其陈述和申辩。",
+    "text_sha256": "sha256:34871b332a1afe5d59d167b937c1b281f53b8d8db6cc9bf3092f9011291975be",
+    "char_length": 87,
+    "offset_basis": "unicode_code_point",
+    "is_current": true,
+    "extraction_loss_note": "",
+    "created_at": "2026-10-30T00:00:00Z",
+    "historical_version_label": "",
+    "effective_from": null,
+    "effective_to": null,
+    "publication_date": null,
+    "source_url": "https://www.moe.gov.cn/",
+    "source_provenance": "sample",
+    "raw_file_relative_path": "",
+    "raw_sha256": ""
+  },
+  {
+    "text_version_id": "TV-SAMPLE-0002-1",
+    "doc_id": "DOC-SAMPLE-0002",
+    "version_no": 1,
+    "normalizer_version": "sample-norm-0.1",
+    "normalization_ops": [
+      "sample"
+    ],
+    "normalized_text": "学生申诉处理委员会应当受理学生的申诉，并在规定期限内作出复查结论。学校应当告知学生申诉的途径与期限。",
+    "text_sha256": "sha256:58c44388cf0ec342afd1dbaee5dc09a3a3ade1bf5b7ebb41c710cd7f586a480e",
+    "char_length": 50,
+    "offset_basis": "unicode_code_point",
+    "is_current": true,
+    "extraction_loss_note": "",
+    "created_at": "2026-10-30T00:00:00Z",
+    "historical_version_label": "",
+    "effective_from": null,
+    "effective_to": null,
+    "publication_date": null,
+    "source_url": "https://example.org/",
+    "source_provenance": "sample",
+    "raw_file_relative_path": "",
+    "raw_sha256": ""
+  }
+]

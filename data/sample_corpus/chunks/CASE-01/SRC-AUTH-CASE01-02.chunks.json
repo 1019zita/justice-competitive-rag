@@ -1,0 +1,36 @@
+{
+  "corpus_version": "SAMPLE-CV-0001",
+  "doc_id": "DOC-SAMPLE-0002",
+  "source_scope_id": "SRC-AUTH-CASE01-02",
+  "text_version_id": "TV-SAMPLE-0002-1",
+  "chunker_version": "ck-0.1",
+  "chunks": [
+    {
+      "chunk_id": "DOC-SAMPLE-0002-C0001@ck-0.1",
+      "doc_id": "DOC-SAMPLE-0002",
+      "text_version_id": "TV-SAMPLE-0002-1",
+      "source_scope_id": "SRC-AUTH-CASE01-02",
+      "ordinal": 0,
+      "heading": "学生申诉复查程序（示例）",
+      "chunk_type": "case_text",
+      "span_start": 0,
+      "span_end": 50,
+      "chunk_text": "学生申诉处理委员会应当受理学生的申诉，并在规定期限内作出复查结论。学校应当告知学生申诉的途径与期限。",
+      "chunk_sha256": "sha256:58c44388cf0ec342afd1dbaee5dc09a3a3ade1bf5b7ebb41c710cd7f586a480e",
+      "embedding_text": "学生申诉处理委员会应当受理学生的申诉，并在规定期限内作出复查结论。学校应当告知学生申诉的途径与期限。",
+      "embedding_text_sha256": "sha256:58c44388cf0ec342afd1dbaee5dc09a3a3ade1bf5b7ebb41c710cd7f586a480e",
+      "char_count": 50,
+      "overlap_prev_chars": 0,
+      "chunker_version": "ck-0.1",
+      "corpus_version": "SAMPLE-CV-0001",
+      "structure_confidence": "unknown",
+      "leakage_guard_ok": true,
+      "export_wrapper_kind": "none",
+      "export_header_span": null,
+      "body_span": null,
+      "raw_text_version_id": "",
+      "raw_file_relative_path": "",
+      "raw_sha256": ""
+    }
+  ]
+}

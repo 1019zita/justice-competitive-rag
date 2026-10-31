@@ -1,0 +1,36 @@
+{
+  "corpus_version": "SAMPLE-CV-0001",
+  "doc_id": "DOC-SAMPLE-0001",
+  "source_scope_id": "SRC-AUTH-CASE01-01",
+  "text_version_id": "TV-SAMPLE-0001-1",
+  "chunker_version": "ck-0.1",
+  "chunks": [
+    {
+      "chunk_id": "DOC-SAMPLE-0001-C0001@ck-0.1",
+      "doc_id": "DOC-SAMPLE-0001",
+      "text_version_id": "TV-SAMPLE-0001-1",
+      "source_scope_id": "SRC-AUTH-CASE01-01",
+      "ordinal": 0,
+      "heading": "普通高等学校学生管理规定（节选）",
+      "chunk_type": "statute_text",
+      "span_start": 0,
+      "span_end": 87,
+      "chunk_text": "第五十四条 学生有作弊行为的，学校可以给予批评教育或者纪律处分。第五十六条 学生对处理决定有异议的，可以依照程序提出申诉。学校作出处分决定，应当告知学生，并允许其陈述和申辩。",
+      "chunk_sha256": "sha256:34871b332a1afe5d59d167b937c1b281f53b8d8db6cc9bf3092f9011291975be",
+      "embedding_text": "第五十四条 学生有作弊行为的，学校可以给予批评教育或者纪律处分。第五十六条 学生对处理决定有异议的，可以依照程序提出申诉。学校作出处分决定，应当告知学生，并允许其陈述和申辩。",
+      "embedding_text_sha256": "sha256:34871b332a1afe5d59d167b937c1b281f53b8d8db6cc9bf3092f9011291975be",
+      "char_count": 87,
+      "overlap_prev_chars": 0,
+      "chunker_version": "ck-0.1",
+      "corpus_version": "SAMPLE-CV-0001",
+      "structure_confidence": "unknown",
+      "leakage_guard_ok": true,
+      "export_wrapper_kind": "none",
+      "export_header_span": null,
+      "body_span": null,
+      "raw_text_version_id": "",
+      "raw_file_relative_path": "",
+      "raw_sha256": ""
+    }
+  ]
+}

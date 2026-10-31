@@ -1,0 +1,48 @@
+{
+  "corpus_version": "SAMPLE-CV-0001",
+  "frozen_corpus_version": "CV-0001",
+  "manifest_version": "sample-0.1",
+  "acquisition_version": "sample-acq-0.1",
+  "normalizer_version": "sample-norm-0.1",
+  "chunker_version": "ck-0.1",
+  "index_version": "IX-SAMPLE-1",
+  "generated_at": "2026-10-30T00:00:00Z",
+  "counts": {
+    "total": 2,
+    "full_text": 2,
+    "metadata_only": 0,
+    "acquired": 2,
+    "failed": 0
+  },
+  "sources": [
+    {
+      "source_scope_id": "SRC-AUTH-CASE01-01",
+      "case_id": "CASE-01",
+      "status": "ACQUIRED",
+      "document_authority": {
+        "classification": "legislation"
+      },
+      "failure_code": null,
+      "chunks": {
+        "count": 1
+      }
+    },
+    {
+      "source_scope_id": "SRC-AUTH-CASE01-02",
+      "case_id": "CASE-01",
+      "status": "ACQUIRED",
+      "document_authority": {
+        "classification": "case"
+      },
+      "failure_code": null,
+      "chunks": {
+        "count": 1
+      }
+    }
+  ],
+  "duplicates": {
+    "records": []
+  },
+  "hosts_used": [],
+  "discovery_host_note": "sample only"
+}
