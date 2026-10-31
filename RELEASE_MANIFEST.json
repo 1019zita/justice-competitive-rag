@@ -1,0 +1,31 @@
+{
+  "release_id": "JCR-0.1.0-AUDITABLE",
+  "repository": "https://github.com/1019zita/justice-competitive-rag",
+  "commit": "6d4f8d3c52e4695b28d70b77b8f9eef1eef1cebb",
+  "committed_at": "2026-10-30T10:35:00Z",
+  "runtime_components": {
+    "issue_spotting": "Method B (CaseFactStructure -> LegalIssue[])",
+    "query_planning": "DynamicQueryPlanner V1 (neutral / support / counter)",
+    "retrieval": "DynamicCompetitiveRetriever (CV-0005 canonical, sample_corpus bundled)",
+    "authority_audit": "RuntimeAuthorityAudit V1 (metadata rules, verified/plausible/unknown/unavailable)",
+    "applicability_audit": "RuntimeApplicabilityAudit V1 (issue/jurisdiction/temporal/factual screening)",
+    "synthesis": "G1_RUNTIME_V1 (grounded atom claims, validated citations, audit signals as inputs)",
+    "api_server": "stdlib ThreadingHTTPServer (POST /api/analysis, GET /api/health)",
+    "frontend": "React 19 + Vite 6 + TypeScript (HttpAnalysisService, live audit cards & drawer)"
+  },
+  "provenance_invariants": [
+    "Support / counter routes are retrieval intentions, never evidence relation labels.",
+    "Database host is never treated as publishing authority.",
+    "Unknown and unavailable audit states are preserved, never upgraded to pass or fail.",
+    "Audit failures are fail-safe and never block the RAG pipeline.",
+    "No frozen case ID, hypothesis, or prewritten AI answer is used in runtime inference.",
+    "No API keys, participant data, or full copyrighted corpus text are committed."
+  ],
+  "verification": {
+    "clean_clone": "PASS (cloned from git, 18/18 tests passed)",
+    "unit_tests": "PASS (18/18 tests in independent repo, 181/181 in research workspace)",
+    "frontend_build": "PASS (tsc -b && vite build)",
+    "e2e_runtime": "PASS (AN-86d65f2a69b3 produced by sample corpus run)",
+    "github_push": "PASS (https://github.com/1019zita/justice-competitive-rag)"
+  }
+}
